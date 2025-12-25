@@ -1,0 +1,20 @@
+{
+  "name": "api-integracao",
+  "version": "1.0.0",
+  "description": "API de Integração com Serviço Externo",
+  "homepage": "https://github.com/eliezereoc/api-integracao#readme",
+  "bugs": {
+    "url": "https://github.com/eliezereoc/api-integracao/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliezereoc/api-integracao.git"
+  },
+  "license": "MIT",
+  "author": "Eliézer de Oliveira",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
