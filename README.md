@@ -1,5 +1,12 @@
 # API de Integração
 
+![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?logo=node.js)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Express](https://img.shields.io/badge/express-5.2.1-lightgrey?logo=express)
+![MySQL](https://img.shields.io/badge/mysql-latest-blue?logo=mysql)
+![GitHub repo size](https://img.shields.io/github/repo-size/eliezereoc/api-integracao)
+![GitHub issues](https://img.shields.io/github/issues/eliezereoc/api-integracao)
+
 Uma API RESTful desenvolvida com Node.js e Express para integração com serviços externos de posts. A aplicação permite sincronizar dados de uma API externa, armazenar posts em um banco de dados MySQL e gerenciar operações CRUD completas.
 
 ## 📋 Funcionalidades
