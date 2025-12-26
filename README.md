@@ -9,6 +9,15 @@
 
 Uma API RESTful desenvolvida com Node.js e Express para integração com serviços externos de posts. A aplicação permite sincronizar dados de uma API externa, armazenar posts em um banco de dados MySQL e gerenciar operações CRUD completas.
 
+## ✅ Pré-requisitos
+
+Antes de começar, certifique-se de ter os seguintes requisitos instalados em sua máquina:
+
+- **Node.js** (versão 18.0.0 ou superior) - [Download](https://nodejs.org/)
+- **npm** (geralmente vem com Node.js) ou **yarn**
+- **MySQL** (versão 5.7 ou superior) - [Download](https://www.mysql.com/downloads/)
+- **Git** (opcional, para clonar o repositório) - [Download](https://git-scm.com/)
+
 ## 📋 Funcionalidades
 
 ### 1. **Sincronização com API Externa**
@@ -197,6 +206,36 @@ Content-Type: application/json
 - O banco de dados é inicializado automaticamente via migrations
 - Todos os erros retornam status HTTP apropriados
 
+## 🤝 Como Contribuir
+
+Contribuições são sempre bem-vindas! Se você deseja contribuir com este projeto:
+
+1. Faça um Fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
+
+### 🐛 Reportar Bugs
+
+Encontrou um bug? Por favor, abra uma [issue](https://github.com/eliezereoc/api-integracao/issues) descrevendo:
+- O comportamento esperado
+- O comportamento atual
+- Passos para reproduzir
+
+## 🗺️ Roadmap
+
+Próximas funcionalidades planejadas:
+
+- [ ] Implementar autenticação JWT
+- [ ] Adicionar testes unitários e de integração
+- [ ] Sistema de paginação para listagem de posts
+- [ ] Cache com Redis para otimização
+- [ ] Documentação da API com Swagger
+- [ ] Deploy automatizado com CI/CD
+- [ ] Logs estruturados com Winston
+- [ ] Rate limiting para proteção da API
+
 ## 📄 Licença
 
 MIT - Veja LICENSE para detalhes
@@ -211,6 +250,15 @@ Eliézer de Oliveira
 # 🇺🇸 Integration API
 
 A RESTful API developed with Node.js and Express for integration with external post services. The application allows you to synchronize data from an external API, store posts in a MySQL database, and manage complete CRUD operations.
+
+## ✅ Prerequisites
+
+Before you begin, make sure you have the following requirements installed on your machine:
+
+- **Node.js** (version 18.0.0 or higher) - [Download](https://nodejs.org/)
+- **npm** (usually comes with Node.js) or **yarn**
+- **MySQL** (version 5.7 or higher) - [Download](https://www.mysql.com/downloads/)
+- **Git** (optional, for cloning the repository) - [Download](https://git-scm.com/)
 
 ## 📋 Features
 
@@ -399,6 +447,36 @@ Content-Type: application/json
 - The external service must return posts in JSON format
 - Database is initialized automatically via migrations
 - All errors return appropriate HTTP status codes
+
+## 🤝 How to Contribute
+
+Contributions are always welcome! If you want to contribute to this project:
+
+1. Fork the project
+2. Create a branch for your feature (`git checkout -b feature/MyFeature`)
+3. Commit your changes (`git commit -m 'Add MyFeature'`)
+4. Push to the branch (`git push origin feature/MyFeature`)
+5. Open a Pull Request
+
+### 🐛 Report Bugs
+
+Found a bug? Please open an [issue](https://github.com/eliezereoc/api-integracao/issues) describing:
+- Expected behavior
+- Current behavior
+- Steps to reproduce
+
+## 🗺️ Roadmap
+
+Planned upcoming features:
+
+- [ ] Implement JWT authentication
+- [ ] Add unit and integration tests
+- [ ] Pagination system for post listing
+- [ ] Cache with Redis for optimization
+- [ ] API documentation with Swagger
+- [ ] Automated deployment with CI/CD
+- [ ] Structured logging with Winston
+- [ ] Rate limiting for API protection
 
 ## 📄 License
 
